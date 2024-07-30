@@ -1,0 +1,133 @@
+body{
+    margin:0%;
+    background-color: #f8f7f4;
+}
+.parent-container{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1%;
+}
+.designer{
+    width: 30%;
+}
+
+.parent-container a{
+    text-decoration: none;
+    color: black;
+    font-family:  sans-serif;
+    font-weight: bold;
+    padding: 2%;
+}
+.signin.fa-user{
+    background-color: #002970;
+    padding: 5%;
+    border-radius: 50%;
+    border: 1px,solid black;
+    color: whitesmoke;
+}
+.signin:hover{
+    background-color: darkblue;
+    border: none;
+}
+.container-searchbar{
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+.container-searchbar input{
+    border: none;
+}
+.login{
+    width:10%;
+}
+/* .inp{
+    background-color: white;
+} */
+.container{
+    text-align: center;
+    padding: 1px;
+}
+.container h3{
+    border: 1px solid transparent;
+    width: 50%;
+    border-radius: 5rem;
+    margin: 11.5% 20% 0 39%;
+    padding: 0.5%;
+    width: fit-content;
+    background-color: rgba(235,152,162,255);
+}
+.middle-p{
+    font-size: 70px;
+    font-family: "Source Serif 4", serif,Georgia;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal; 
+}
+.one-line{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.container button{
+    background-color: black;
+    border-radius: 5rem;
+    color: white;
+    padding: 1%;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.img-container {
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    margin: 4rem
+}
+.img-container img{
+    width: 265px;
+    border-radius: 2.9rem; 
+    padding: 15px; 
+}
+.section1{
+    background-color: white;
+}
+.section1 h1{
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+.card1{
+    width:30%;
+}
+.card1 img{
+    width: 100%;
+}
+.card1 p{
+    float: right;
+}
+.p1-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.p2-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.p3-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.b-section{
+    
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 1%;
+    background-color: black;
+    color: white;
+    
+}
+
+
