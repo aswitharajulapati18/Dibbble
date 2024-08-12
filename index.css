@@ -1,12 +1,13 @@
 body{
-    margin:0%;
+    margin: 0;
     background-color: #f8f7f4;
 }
 .parent-container{
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     margin: 1%;
+    font-family: sans-serif,Arial, Helvetica;
 }
 .designer{
     width: 30%;
@@ -18,6 +19,7 @@ body{
     font-family:  sans-serif;
     font-weight: bold;
     padding: 2%;
+    
 }
 .signin.fa-user{
     background-color: #002970;
@@ -42,6 +44,16 @@ body{
 }
 .login{
     width:10%;
+    margin: 25px;
+    margin-top: 3%;
+}
+.login .signup-button{
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    padding: 1rem;
+    
 }
 /* .inp{
     background-color: white;
@@ -52,9 +64,10 @@ body{
 }
 .container h3{
     border: 1px solid transparent;
+    text-align: center;
     width: 50%;
     border-radius: 5rem;
-    margin: 11.5% 20% 0 39%;
+    margin: 2% 20% 0 39%;
     padding: 0.5%;
     width: fit-content;
     background-color: rgba(235,152,162,255);
@@ -83,7 +96,7 @@ body{
     justify-content: space-evenly;
     display: flex;
     flex-direction: row;
-    margin: 4rem
+    margin: 4rem;
 }
 .img-container img{
     width: 265px;
@@ -127,7 +140,102 @@ body{
     padding: 1%;
     background-color: black;
     color: white;
+}
+.section2{
+    background-color: rgba(254,219,121,255);
+    text-align: center;
+    /* border:1px solid red; */
+    /* width: 100%;  */
+    font-family: serif;
+    padding: 5%;
+    margin-top: 5%;
+     
+}
+.section2 h2{
+    font-size: 4.5rem ;
+    font-weight: 200;
+}
+.section2 p{
+    font-size: 1.5rem;
+    /* padding: 2%; */
+    margin-bottom: 3%;
+    margin-top: 4%;
+}
+.a1{
+    text-decoration: none;
+    border: 2px solid rgb(8, 8, 66);
+    background-color: rgb(8, 8, 66);
+    border-radius: 25px;
+    color: white;
+    padding:1%;
+    margin: 3%;
+}
+.a2{
+    text-decoration: none;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 25px;
+    color:black;
+    padding:1%;
+    margin-left: 1%; 
+}
+.section3{
+    margin: 1%;
+}
+.section3 img{
+    width: 13%;
+}
+.section3{
+    display: flex;
+   padding: 1%;
+}
+.section3 img{
+    width: 200px;
+    padding: 10px;
+    box-sizing: border-box;   
     
 }
+.section3 div{
+    margin: 1%;
+    justify-content: space-between;
+}
+.support-last{
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.support-last a{
+    text-decoration: none;
+    
+}
+.last-i{
+    width: 10%;
+}
+.last-i i{
+    padding: 5%;
+}
+.last{
+    width:55%;
+}
+.last a{
+    padding: 2%;
+}
+.end a{
+    text-decoration: none;
+    
+}
+.end{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4%;
 
+}
+.end div{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    
+}
+.end2{
+    width: 35% !important;
+}
